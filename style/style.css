@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    filter: drop-shadow(20px 20px 10px gray) !important; 
+    animation: rotateycoffee 4s linear infinite !important;
+}
+@keyframes  rotateycoffee {
+    0%{
+        transform: translateY(-15px) rotate(10deg);
+    }
+    50%{
+        transform: translateY(15px) rotate(10deg);
+    }
+    100%{
+        transform: translateY(-15px) rotate(10deg);
+    }
+}
+
+.image {
+    height: 310px;
+}
+@media(min-width:768px){
+    .image{
+        height: 500px;
+    }
+}
+@media(min-width:992px){
+    .image{
+        height: 600px;
+    }
+}
+/*------------Hover Button */
+.hover-btn{
+    transition: .2s ease-in-out;
+}
+.hover-btn:hover{
+    background-color: rgb(23, 173, 23);
+}
+/*------------Hover Button */
