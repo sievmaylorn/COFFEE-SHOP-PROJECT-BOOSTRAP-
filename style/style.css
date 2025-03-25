@@ -37,6 +37,19 @@
     transition: .2s ease-in-out;
 }
 .hover-btn:hover{
-    background-color: rgb(23, 173, 23);
+    background-color: rgb(29, 123, 40);
+    color: white;
 }
 /*------------Hover Button */
+
+.bg-coffee{
+    background: url(../public/icons/cup-coffee.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+
+/* --Height-- */
+.h100vh{
+    height: 100vh !important;
+}
