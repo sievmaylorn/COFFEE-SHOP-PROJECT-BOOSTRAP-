@@ -37,7 +37,7 @@
     transition: .2s ease-in-out;
 }
 .hover-btn:hover{
-    background-color: rgb(29, 123, 40);
+    background-color: rgb(81, 155, 90);
     color: white;
 }
 /*------------Hover Button */
@@ -52,4 +52,18 @@
 /* --Height-- */
 .h100vh{
     height: 100vh !important;
+}
+swiper-container{
+    width: 100%;
+}
+/* swiper-slide */
+swiper-slide{
+    background-position: center;
+    background-size: cover;
+    /* width: 300px;
+    height: 300px; */
+}
+swiper-slide{
+    display: block;
+    width: 100%;
 }
